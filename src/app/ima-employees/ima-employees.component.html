@@ -1,0 +1,7 @@
+<input type="text" [formControl]="filterFormControl" placeholder="filter employees"/>
+<div *ngFor = "let employee of filteredEmployees; let i = index;">
+  <img [src] = "employee.image"/>
+  <h1>{{i | exponentialStrength:2}}: {{employee.name | uppercase}}</h1>
+  <div [innerHTML] = "employee.position"></div>
+  <div *ngIf = "employee.description">{{employee.description}}</div>
+</div>

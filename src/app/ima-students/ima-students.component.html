@@ -1,0 +1,6 @@
+<input type="text" [formControl]="filterFormControl" placeholder="Filter students...">
+<div *ngFor="let student of filteredStudents; let i=index">
+    <h1>{{i}}: {{student.name}}</h1>
+    <p>{{student.studyProgram}}</p>
+    <p *ngIf="student.description">{{student.description}}</p>
+</div>

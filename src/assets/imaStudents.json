@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Max Mustermann",
+    "description": "Student of IMA19",
+    "studyProgram": "IMA"
+  },
+  {
+    "name": "Jane Doe",
+    "description": "Student of AIM20",
+    "studyProgram": "AIM"
+  },
+  {
+    "name": "Walter White",
+    "description": "",
+    "studyProgram": "IMA"
+  }
+]
